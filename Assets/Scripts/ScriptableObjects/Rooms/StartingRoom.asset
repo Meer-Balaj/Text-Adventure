@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc1d25146d014d546a5490742430356d, type: 3}
+  m_Name: StartingRoom
+  m_EditorClassIdentifier: 
+  description: The dungeon door slams shut behind you. You are in a maze of twisty
+    little passages, all alike.
+  roomName: StartingRoom
+  exits:
+  - keyString: north
+    exitDescription: You see a dark doorway to the north.
+    valueRoom: {fileID: 11400000, guid: 00cda7b5f00686a4981d72dc0e9b5485, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: f0f131846adcdaf4e9cdc2b12c6c7279, type: 2}
